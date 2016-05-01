@@ -76,7 +76,7 @@ def restrict(varLabel, pred, use_empty_env=False):
     """Associates a policy with a label.
 
     :param varLabel: Label to associate with policy.
-    :type varLabel: string
+    :type varLabel: Var
     :param pred: Policy: function taking output channel and returning Boolean result.
     :type pred: T -> bool, where T is the type of the output channel
     """
